@@ -1,0 +1,32 @@
+{
+  "name": "Web Application Manifest Sample",
+  "icons": [
+    {
+      "src": "img/iphone.png",
+      "sizes": "60x60",
+      "type": "image/png",
+      "density": 1.0
+    },
+    {
+      "src": "img/ipad.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": 1.5
+    },
+    {
+      "src": "img/iphoneRetina.png",
+      "sizes": "114x114",
+      "type": "image/png",
+      "density": 2.0
+    },
+    {
+      "src": "img/ipadRetina.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": 3.0
+    },
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
