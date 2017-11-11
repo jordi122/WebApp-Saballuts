@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Saballuts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
@@ -13,7 +13,7 @@
     if ($.mobile.activePage.jqmData( "panel" ) !== "open") {
       if ( e.type === "swiperight"  ) {
         $( "#myPanel" ).panel( "open" );
-      } 
+      }
     }
     else if ($.mobile.activePage.jqmData( "panel" ) == "open"){
       $( "#myPanel" ).panel( "close" );
@@ -24,20 +24,20 @@
 <body>
 
 <div data-role="page">
-  
-    <div data-role="panel" id="myPanel">
-      <h2><img src="logo.jpg" width="48" height="48"> Saballuts</h2>
-      <ul data-role="listview" data-inset="true">
-        <li><a href="index.html" data-transition="slidefade">Notícies</a></li>
-        <li><a href="agenda.html" data-transition="slidefade">Agenda</a></li>
-        <li><a href="twitter.html" data-transition="slidefade">Twitter</a></li>
-        <li><a href="facebook.html" data-transition="slidefade">Facebook</a></li>
-        <li><a href="fotos.html" data-transition="slidefade">Fotos</a></li>
-        <li><a href="videos.html" data-transition="slidefade">Vídeos</a></li>
-        <li><a href="patrocinadors.html" data-transition="slidefade">Patrocinadors</a></li>
-      </ul>
-    </div>
-  
+
+  <div data-role="panel" id="myPanel">
+    <h2><img src="logo.jpg" height="48" width="48"> Saballuts</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html" data-transition="slidefade">Agenda</a></li>
+      <li><a href="noticies.html" data-transition="slidefade">Notícies</a></li>
+      <li><a href="twitter.html" data-transition="slidefade">Twitter</a></li>
+      <li><a href="facebook.html" data-transition="slidefade">Facebook</a></li>
+      <li><a href="fotos.html" data-transition="slidefade">Fotos</a></li>
+      <li><a href="videos.html" data-transition="slidefade">Vídeos</a></li>
+      <li><a href="patrocinadors.html" data-transition="slidefade">Patrocinadors</a></li>
+    </ul>
+  </div>
+
     <div data-role="header" data-position="fixed">
       <a href="#myPanel" class="ui-btn ui-icon-bullets ui-btn-icon-left">Menú</a>
       <h1>Saballuts</h1>
@@ -45,13 +45,13 @@
     </div>
 
   <div data-role="main" class="ui-content">
-    	<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;showTz=0&amp;wkst=2&amp;hl=ca&amp;bgcolor=%23FFFFFF&amp;src=p4dqh4cg8glk3q5fghjj8cqvq4%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+    	<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;showTz=0&amp;wkst=2&amp;hl=ca&amp;bgcolor=%23FFFFFF&amp;src=2ug1emoqgkd3d333k9o01q0dns%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="100%" height="800" frameborder="0" scrolling="no"></iframe>
   </div>
 
   <div data-role="footer" data-position="fixed">
-    <h1><a href="https://www.google.com/calendar/embed?src=p4dqh4cg8glk3q5fghjj8cqvq4%40group.calendar.google.com&ctz=Europe/Madrid">Ves al nostre calendari</a></h1>
+    <h1><a href="https://www.google.com/calendar/embed?src=2ug1emoqgkd3d333k9o01q0dns%40group.calendar.google.com&ctz=Europe/Madrid">Ves al nostre calendari</a></h1>
   </div>
-</div> 
+</div>
 
 </body>
 </html>

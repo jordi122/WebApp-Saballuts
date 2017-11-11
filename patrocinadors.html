@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Saballuts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
@@ -13,7 +13,7 @@
     if ($.mobile.activePage.jqmData( "panel" ) !== "open") {
       if ( e.type === "swiperight"  ) {
         $( "#myPanel" ).panel( "open" );
-      } 
+      }
     }
     else if ($.mobile.activePage.jqmData( "panel" ) == "open"){
       $( "#myPanel" ).panel( "close" );
@@ -24,20 +24,20 @@
 <body>
 
 <div data-role="page">
-  
-    <div data-role="panel" id="myPanel">
-      <h2><img src="logo.jpg" width="48" height="48"> Saballuts</h2>
-      <ul data-role="listview" data-inset="true">
-        <li><a href="index.html" data-transition="slidefade">Notícies</a></li>
-        <li><a href="agenda.html" data-transition="slidefade">Agenda</a></li>
-        <li><a href="twitter.html" data-transition="slidefade">Twitter</a></li>
-        <li><a href="facebook.html" data-transition="slidefade">Facebook</a></li>
-        <li><a href="fotos.html" data-transition="slidefade">Fotos</a></li>
-        <li><a href="videos.html" data-transition="slidefade">Vídeos</a></li>
-        <li><a href="patrocinadors.html" data-transition="slidefade">Patrocinadors</a></li>
-      </ul>
-    </div>
-  
+
+  <div data-role="panel" id="myPanel">
+    <h2><img src="logo.jpg" height="48" width="48"> Saballuts</h2>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html" data-transition="slidefade">Agenda</a></li>
+      <li><a href="noticies.html" data-transition="slidefade">Notícies</a></li>
+      <li><a href="twitter.html" data-transition="slidefade">Twitter</a></li>
+      <li><a href="facebook.html" data-transition="slidefade">Facebook</a></li>
+      <li><a href="fotos.html" data-transition="slidefade">Fotos</a></li>
+      <li><a href="videos.html" data-transition="slidefade">Vídeos</a></li>
+      <li><a href="patrocinadors.html" data-transition="slidefade">Patrocinadors</a></li>
+    </ul>
+  </div>
+
     <div data-role="header" data-position="fixed">
       <a href="#myPanel" class="ui-btn ui-icon-bullets ui-btn-icon-left">Menú</a>
       <h1>Saballuts</h1>
@@ -59,7 +59,7 @@
   <div data-role="footer" data-position="fixed">
     <h1>Footer Text</h1>
   </div>
-</div> 
+</div>
 
 </body>
 </html>
